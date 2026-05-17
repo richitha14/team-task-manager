@@ -1,0 +1,2 @@
+-- Rename TaskStatus DONE -> COMPLETED
+ALTER TYPE "TaskStatus" RENAME VALUE 'DONE' TO 'COMPLETED';

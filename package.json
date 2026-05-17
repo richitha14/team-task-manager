@@ -1,0 +1,30 @@
+{
+  "name": "team-task-manager",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Full-stack team task manager — React + Express + PostgreSQL",
+  "workspaces": [
+    "client",
+    "server",
+    "packages/shared"
+  ],
+  "scripts": {
+    "prepare": "npm run build -w packages/shared",
+    "dev": "concurrently -n client,server -c cyan,magenta \"npm run dev -w client\" \"npm run dev -w server\"",
+    "dev:client": "npm run dev -w client",
+    "dev:server": "npm run dev -w server",
+    "build": "npm run build -w packages/shared && npm run build -w client && npm run build -w server",
+    "start:production": "npm run start -w server",
+    "db:generate": "npm run db:generate -w server",
+    "db:migrate": "npm run db:migrate -w server",
+    "db:migrate:deploy": "npm run db:migrate:deploy -w server",
+    "db:push": "npm run db:push -w server",
+    "db:studio": "npm run db:studio -w server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
