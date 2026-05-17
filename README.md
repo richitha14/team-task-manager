@@ -2,15 +2,14 @@
 
 A full-stack team task management application for organizing projects, assigning work, and tracking progress with role-based access control.
 
-**Live demo:** [Add your Railway URL](https://your-app.up.railway.app)  
-**Repository:** [github.com/your-username/team-task-manager](https://github.com/your-username/team-task-manager)  
+**Live demo:**  [Team Task Manager](https://team-task-manager-production-a1c4.up.railway.app)
+**📂 Repository:** [GitHub Repo](https://github.com/richitha14/team-task-manager)  
 **Demo video:** [Add Loom/YouTube link](#)
 
 ---
 
 ## Screenshots
 
-## Screenshots
 
 ### Login Page
 
