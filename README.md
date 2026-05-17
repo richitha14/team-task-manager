@@ -10,11 +10,19 @@ A full-stack team task management application for organizing projects, assigning
 
 ## Screenshots
 
-| Dashboard | Projects | Tasks |
-|-----------|----------|-------|
-| ![Dashboard](./docs/screenshots/dashboard.png) | ![Projects](./docs/screenshots/projects.png) | ![Tasks](./docs/screenshots/tasks.png) |
+## Screenshots
 
-> Add screenshots to `docs/screenshots/` before submission. Placeholder paths above.
+### Login Page
+
+Secure authentication with JWT-based login and role-based access control.
+
+![Login Page](docs/screenshots/login-page.png)
+
+### Platform Overview
+
+Complete overview of the Team Task Manager including dashboard analytics, project management, task tracking, priorities, and admin workflow.
+
+![Platform Overview](docs/screenshots/platform-overview.png)
 
 ---
 
