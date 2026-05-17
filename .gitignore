@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+server/dist/
+client/dist/
+packages/shared/dist/
+*.tsbuildinfo
+
+# Environment (never commit secrets)
+.env
+.env.local
+.env.*.local
+!.env.example
+!.env.*.example
+!.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*.swo
+
+# Test / coverage
+coverage/
+.nyc_output/
+
+# Vite / tooling
+client/.vite/
+*.local
+
+# Prisma
+server/prisma/*.db
+server/prisma/*.db-journal
+
+# Misc
+.cache/
+.turbo/
+tmp/
+temp/
