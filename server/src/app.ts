@@ -29,9 +29,15 @@ export function createApp() {
 
   app.get("/", (_req, res) => {
     if (env.serveClient) {
-      res.redirect(302, "/dashboard");
+      const indexFile = path.join(
+        path.resolve(env.clientDistPath),
+        "index.html"
+      );
+  
+      res.sendFile(indexFile);
       return;
     }
+  
     res.json({
       message: "Team Task Manager API",
       health: "/api/health",
